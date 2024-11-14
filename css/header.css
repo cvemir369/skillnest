@@ -15,9 +15,18 @@
   display: block;
   margin: 0 auto;
 }
-.header {
+.nav-links {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
-.navigationbar {
-  display: flex;
+.nav-links > :first-child {
+  margin-right: auto;
+}
+.button {
+  background-color: black;
+  border-radius: 1em;
+  color: white;
+  padding: 0.3em;
 }
