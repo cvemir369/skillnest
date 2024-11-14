@@ -1,0 +1,21 @@
+.footer-container {
+  font-size: small;
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 3fr 1fr;
+  gap: 1rem;
+  padding: 1.5rem;
+}
+
+.footer-item li,
+.footer-item p {
+  padding: 0.5rem 0;
+}
+
+.footer-item h2 {
+  font-weight: 600;
+}
+
+.footer-item:nth-child(6) {
+  grid-column: 1 / 6;
+}
