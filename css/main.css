@@ -7,7 +7,7 @@ main {
   flex-direction: column;
   justify-content: flex-start;
   margin-top: 2rem;
-  height: 100vh;
+  margin-bottom: 4rem;
   align-items: center;
 }
 
