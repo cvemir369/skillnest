@@ -1,0 +1,92 @@
+/* Main Styling */
+
+main {
+  margin: 2rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* Hero Section Styling */
+
+.hero {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.hero_text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 1rem;
+  padding: 24px;
+  gap: 24px;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+.hero p {
+  font-size: 0.75rem;
+}
+
+.hero_img {
+  display: block;
+  align-self: center;
+}
+
+.hero_btn {
+  font: inherit;
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  background-color: #e6e6e6;
+  border: 1px solid #0d0d0d;
+}
+
+.hero_btn:hover {
+  background-color: #0d0d0d;
+  color: #e6e6e6;
+}
+
+/* About Section Styling */
+
+.about p {
+  font-size: 0.5rem;
+}
+
+.about_text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  max-width: 400px;
+  margin: 1rem;
+  padding: 24px;
+  gap: 24px;
+}
+
+.about_data {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin: 1rem;
+}
+
+.about_data_item {
+  flex: 1 1 200px;
+  max-width: 200px;
+}
+
+.about_text h2 {
+  font-weight: 200;
+}
+
+h2 {
+  font-weight: 600;
+}
