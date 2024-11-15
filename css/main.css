@@ -4,8 +4,9 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin-top: 2rem;
+  margin: 4rem 0;
   align-items: center;
+  gap: 3rem;
 }
 
 /* Hero Section Styling */
@@ -26,7 +27,8 @@ main {
 }
 
 img {
-  max-width: 20rem;
+  max-width: 22rem;
+  height: auto;
   border-radius: 10px;
 }
 
@@ -75,7 +77,7 @@ button {
 .about {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 4rem;
 }
 
 .about p {
@@ -117,9 +119,8 @@ h2 {
 
 /* Media Query for Tablet (768px and below) */
 @media (max-width: 768px) {
-  /* Make .hero section items align in a row */
   .hero {
-    flex-direction: row; /* Align hero_text and hero_img in a row */
+    flex-direction: row;
     justify-content: center;
   }
 
@@ -127,28 +128,25 @@ h2 {
   .about_data {
     flex-direction: row;
     /* flex-wrap: wrap; Allows items to wrap if space is limited */
-    /* justify-content: center; */
   }
 
   .about_data_item {
-    max-width: 45%; /* Adjust width for better layout on tablet */
+    max-width: 45%;
   }
 }
 
 /* Media Query for Mobile (480px and below) */
 @media (max-width: 480px) {
-  /* Maintain row alignment for hero section */
   .hero {
-    flex-direction: column; /* Stack in a column again for smaller screens */
+    flex-direction: column;
   }
 
-  /* Stack about data items in a single column on mobile */
   .about_data {
     flex-direction: column;
     align-items: center;
   }
 
   .about_data_item {
-    max-width: 100%; /* Full width for each item on mobile */
+    max-width: 100%;
   }
 }
