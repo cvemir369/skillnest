@@ -5,7 +5,6 @@ main {
   flex-direction: column;
   justify-content: flex-start;
   margin-top: 2rem;
-  height: 100%;
   align-items: center;
 }
 
@@ -35,7 +34,7 @@ h1 {
 }
 
 .hero p {
-  font-size: 0.75rem;
+  font-size: 1rem;
   max-width: 60ch;
 }
 
@@ -79,14 +78,14 @@ button {
 }
 
 .about p {
-  font-size: 0.5rem;
+  font-size: 1rem;
 }
 
 .about_text {
   display: flex;
   flex-direction: column;
   text-align: left;
-  max-width: 45ch;
+  max-width: 55ch;
   gap: 24px;
 }
 
@@ -104,6 +103,7 @@ button {
   gap: 12px;
   /* flex: 1 1 200px; */
   max-width: 200px;
+  text-align: left;
 }
 
 .about_text h2 {
@@ -125,8 +125,8 @@ h2 {
   /* About section items in a row */
   .about_data {
     flex-direction: row;
-    flex-wrap: wrap; /* Allows items to wrap if space is limited */
-    justify-content: center;
+    /* flex-wrap: wrap; Allows items to wrap if space is limited */
+    /* justify-content: center; */
   }
 
   .about_data_item {
