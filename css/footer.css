@@ -1,12 +1,28 @@
+footer {
+  margin: 1rem auto;
+  padding: 0 1rem;
+}
+
+footer h2 {
+  margin-bottom: 1rem;
+}
+
+footer li {
+  font-style: normal;
+}
+
 .footer-container {
   font-size: 0.75rem;
   display: flex;
   justify-content: space-between;
-  margin: 1rem auto;
 
   @media (max-width: 480px) {
     flex-direction: column;
   }
+}
+
+.footer-container p {
+  font-size: 0.75rem;
 }
 
 .footer-item:nth-child(1) {
@@ -18,6 +34,6 @@
 }
 
 .copyright {
-  font-size: x-small;
   margin: 1rem 1rem;
+  font-size: 0.75rem;
 }
