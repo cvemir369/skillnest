@@ -7,7 +7,7 @@ main {
   flex-direction: column;
   justify-content: flex-start;
   margin-top: 2rem;
-  height: 100vh;
+  height: 100%; /* Can't be 100vh because it overlaps with footer */
   align-items: center;
 }
 
