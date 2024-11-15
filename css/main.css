@@ -26,14 +26,15 @@ main {
   gap: 24px;
 }
 
+.hero_text h1 {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
 img {
   max-width: 22rem;
   height: auto;
   border-radius: 10px;
-}
-
-h1 {
-  font-weight: 600;
 }
 
 .hero p {
