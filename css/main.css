@@ -49,6 +49,7 @@ h1 {
 
 button {
   align-self: center;
+  cursor: pointer;
 }
 
 .hero_btn {
@@ -63,6 +64,11 @@ button {
 
 .hero_btn:hover {
   background-color: #0d0d0d;
+  color: #e6e6e6;
+}
+
+.hero_btn:active {
+  background-color: #737373;
   color: #e6e6e6;
 }
 
