@@ -14,6 +14,7 @@
   align-items: center;
   justify-content: center;
   gap: 1rem;
+  flex-wrap: wrap;
 }
 .nav-links > :first-child {
   margin-right: auto;
@@ -22,5 +23,17 @@
   background-color: black;
   border-radius: 1em;
   color: white;
-  padding: 0.3em;
+  padding: 8px 16px;
+  border-radius: 100px;
+  border: 1px solid;
+  text-wrap: nowrap;
+}
+
+.button:hover {
+  background-color: #e6e6e6;
+  color: rgb(27, 27, 27);
+  border: solid black 1px;
+}
+.button a {
+  text-decoration: none;
 }
